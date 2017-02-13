@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Twitter Bootstrap shopping cart</title>
+    <title>Tue Hieu Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -22,8 +22,17 @@
 
 	<!-- Favicons -->
     <link rel="shortcut icon" href="{{ URL::asset('assets/ico/favicon.ico') }}">
+
+    <!-- Magnific Popup core CSS file -->
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+
+    <link href="{{ URL::asset('demo/css/lightgallery.css') }}" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/main.css') }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   </head>
-<body>
+<body class="home">
 <!--
 	Upper Header Section
 -->

@@ -1,0 +1,15 @@
+
+
+/*
+    For height of thumbnail
+ */
+
+.product {
+    height: 300px;
+}
+
+.img-product {
+    display: block;
+    vertical-align: middle;
+    height: 100%;
+}

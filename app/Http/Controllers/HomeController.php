@@ -25,4 +25,9 @@ class HomeController extends Controller
         $data = array ('selected_navbar' => $selected_navbar);
         return view('products')->with($data);
     }
+
+    public function testGallery()
+    {
+        return view('gallery');
+    }
 }

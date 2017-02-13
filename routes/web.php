@@ -14,3 +14,11 @@
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 
 Route::get('/products',['as' => 'products', 'uses' => 'HomeController@listProduct']);
+
+Route::get('/test', function () {
+    return view('tes-gal');
+});
+
+Route::get('/home-test', function () {
+    return view('home-test');
+});
